@@ -1,13 +1,17 @@
 var http = require('http');
 var mod = require('./modes.js');
 var server = http.createServer(function(request,response){
- if(request.url =='/'){
-  response.write(mod.first("5"));
-  response.end();
+if(request.url =='/'){
+	response.write(mod.first("5"));
+	response.end();
 }
 else if(request.url =='/anotherex'){
- response.write(mod.sec("7"));
- response.end();
+	response.write(mod.sec("7"));
+	response.end();
+}
+else if(request.url =='/balance'){
+	response.write(mod.sec("{}"));
+	response.end();
 }
 
 });
