@@ -1,0 +1,3 @@
+Create some form. After submiting the form, open new page and show values from the form. 
+There is a video in attachment. Result must be like in the video. You can use POST or GET method. 
+Same as HW4. Do in Node.js and Express.js. Deadline Till next wednesday 23:59
